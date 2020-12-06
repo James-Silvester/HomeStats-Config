@@ -1,0 +1,11 @@
+<org.jenkinsci.plugins.periodicbackup.BackupObject plugin="periodicbackup@1.6">
+  <fileManager class="org.jenkinsci.plugins.periodicbackup.ConfigOnly">
+    <restorePolicy class="org.jenkinsci.plugins.periodicbackup.OverwriteRestorePolicy"/>
+  </fileManager>
+  <storage class="org.jenkinsci.plugins.periodicbackup.TarGzStorage"/>
+  <location class="org.jenkinsci.plugins.periodicbackup.LocalDirectory">
+    <enabled>true</enabled>
+    <path>/homestats/HomeStats-Config/jenkins</path>
+  </location>
+  <timestamp>2020-12-06 22:56:38.992 UTC</timestamp>
+</org.jenkinsci.plugins.periodicbackup.BackupObject>
